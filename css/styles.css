@@ -82,7 +82,8 @@ section {
 .col-6 {
 	display: inline-block;
 	float: left;
-	width: 50%; 
+	width: 46%; 
+	padding: 2%;
 }
 
 .col-6:after {
