@@ -1,3 +1,7 @@
+body {
+	background-color: pink;
+}
+
 #wrapper {
 	width: 90%;
 	min-width: 380px;
