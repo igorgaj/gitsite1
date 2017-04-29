@@ -1,0 +1,111 @@
+#wrapper {
+	width: 90%;
+	min-width: 380px;
+	margin: 0 auto;
+	background-color: lightgray;
+}
+
+#header {
+	background-color: lightyellow;
+}
+
+#header-top {
+	display: inline-block;
+	width: 100%;
+	height: 25px;
+	background-color: black;
+	color: white;
+	overflow: hidden;
+}
+
+ul.hd-lang {
+	float: right;
+	list-style-type: none;
+	margin: 2px 5px;
+	pading: 0;
+}
+
+
+
+ul.hd-lang li {
+	display: inline;
+	padding: 0 2px;
+}
+
+ul.hd-lang li a{
+	color: white;
+	text-decoration: none;
+}
+
+#header-image {
+	height: 320px;
+	background-image: url("../img/header-bg.svg");
+	background-size: cover;
+	background-position: center;
+}
+
+#header-menu {
+	background-color: BurlyWood;
+}
+
+nav.top-nav {
+	height: auto;
+	padding: 10px 15px;
+}
+
+nav.top-nav a {
+	//display: inline;
+	padding: 10px 15px;
+	text-decoration: none;
+}
+
+nav.top-nav a:hover {
+	color: white;
+	background-color:DarkOrchid;
+}
+
+section {
+	//padding: 15px;
+}
+
+
+.row {
+	//display: inline-block;
+}
+
+.row:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.col-6 {
+	display: inline-block;
+	float: left;
+	width: 50%; 
+}
+
+.col-6:after {
+	clear: both;
+}
+
+footer {
+	color: FloralWhite;
+	background-color:DarkOrchid;
+}
+
+
+
+
+.center {
+	text-align: center;
+}
+
+
+
+@media screen and (max-width: 1024px) {
+    #wrapper {
+        background-color: lightgreen;
+		width: 95%;
+    }
+}
