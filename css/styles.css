@@ -4,7 +4,7 @@ body {
 
 #wrapper {
 	width: 90%;
-	min-width: 380px;
+	min-width: 200px;
 	margin: 0 auto;
 	background-color: lightgray;
 }
@@ -17,7 +17,7 @@ body {
 	display: inline-block;
 	width: 100%;
 	height: 25px;
-	background-color: black;
+	background-color: DarkSlateGray;
 	color: white;
 	overflow: hidden;
 }
@@ -46,6 +46,11 @@ ul.hd-lang li a{
 	background-image: url("../img/header-bg.svg");
 	background-size: cover;
 	background-position: center;
+}
+
+#hd-join {
+	position: relative;
+	top: 55%;;
 }
 
 #header-menu {
@@ -97,6 +102,19 @@ section {
 footer {
 	color: FloralWhite;
 	background-color:DarkOrchid;
+	padding: 1px;
+}
+
+.btn {
+	padding: 5px 20px;
+	color: white;
+	background-color: SandyBrown;
+	border-radius: 3px;
+}
+
+.btn:hover {
+	background-color: Sienna;
+	cursor: pointer;
 }
 
 
